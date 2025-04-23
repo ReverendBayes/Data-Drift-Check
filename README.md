@@ -18,3 +18,19 @@ python driftcheck.py \
 * Auto-detects numeric vs. categorical
 * Flags features with > 0.1 JS divergence
 * Generates simple Matplotlib histograms inline
+
+
+**Usage example**:
+
+```bash
+python driftcheck.py \
+  --baseline base.csv \
+  --current new.csv \
+  --report drift_report.md
+```
+
+**Dependencies**:
+
+```bash
+pip install pandas numpy scipy matplotlib
+```
