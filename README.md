@@ -11,7 +11,7 @@ A CLI tool that connects to any database or CSV, computes statistical drift (KS-
 * Teams want a bullet-proof, “run-me-with-one-command” script for nightly checks.
 
 ## Key features
-python driftcheck.py \
+python drift-check.py \
   --baseline base.csv \
   --current new.csv \
   --report drift_report.md
