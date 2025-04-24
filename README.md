@@ -19,8 +19,13 @@ python drift-check.py \
 * Flags features with > 0.1 JS divergence
 * Generates simple Matplotlib histograms inline
 
+## Installation
 
-**Usage example**:
+```bash
+pip install pandas numpy scipy matplotlib
+```
+
+## Quickstart
 
 ```bash
 python driftcheck.py \
@@ -29,8 +34,4 @@ python driftcheck.py \
   --report drift_report.md
 ```
 
-**Dependencies**:
 
-```bash
-pip install pandas numpy scipy matplotlib
-```
